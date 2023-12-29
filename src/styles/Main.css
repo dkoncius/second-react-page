@@ -24,6 +24,7 @@ main .container p {
 
 main .images {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 30px;
