@@ -10,6 +10,7 @@ const Header = () => {
                 <p>in two lines</p>
                 <button>Button</button>
             </div>
+            <div className="cover"></div>
         </header>
     </>
   )
