@@ -1,5 +1,6 @@
 import '../styles/Main.css'
-import Women from '../images/women.jpg'
+import women from '../images/women.jpg'
+import MainImage from './MainImage'
 
 const Main = () => {
   return (
@@ -9,10 +10,14 @@ const Main = () => {
             <h1>Portfolio</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima ullam fugit dicta, voluptates odit voluptatum veritatis optio fugiat officia magni. Ullam aliquam dolores dolore animi, numquam quasi distinctio fugiat explicabo?</p>
             <div className="images">
-                <div className="image">
-                    <img src={Women} alt="" />
-                    <p>Ipsum Feuzgiat</p>
-                </div>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
+              <MainImage women={women}/>
             </div>
        </div>
     </main>
